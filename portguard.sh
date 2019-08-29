@@ -14,4 +14,4 @@ mkdir -p /pg/var/cron
 # FUNCTIONS START ##############################################################
 primestart
 # FUNCTIONS END ##############################################################
-break=off && while [ "$break" == "off" ]; do question1; done
+break=off && while [ "$break" == "off" ]; do primestart; done
